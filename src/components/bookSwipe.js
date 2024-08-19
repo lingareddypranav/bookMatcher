@@ -6,7 +6,7 @@ const BookSwipe = ({ book, onSwipe }) => {
   return (
     <div className="book-swipe-container">
       <div className="book-content">
-        <img src={book.cover} alt={book.title} className="book-cover" />
+        <Image src={book.cover} alt={book.title} className="book-cover" />
         <div className="book-details">
           <h2>{book.title}</h2>
           <p>{book.author}</p>
