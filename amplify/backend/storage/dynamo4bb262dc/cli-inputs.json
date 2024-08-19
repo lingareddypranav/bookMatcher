@@ -1,0 +1,14 @@
+{
+  "resourceName": "dynamo4bb262dc",
+  "tableName": "dynamo4bb262dc",
+  "partitionKey": {
+    "fieldName": "bookMatchData",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "bookId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

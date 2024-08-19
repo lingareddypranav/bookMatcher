@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(145deg, #121212, #1c1c1c);
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .book-swipe-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .book-content {
+    margin-bottom: 20px;
+  }
+  
+  .book-cover {
+    width: 300px; /* Fixed width */
+    height: 450px; /* Fixed height */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  }
+  
+  .book-details {
+    margin-top: 10px;
+  }
+  
+  .book-details h2 {
+    margin: 5px 0;
+    font-style: italic; /* Italicize the book title */
+  }
+  
+  .book-details p {
+    margin: 5px 0;
+  }
+  
+  .swipe-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px; /* Keep the buttons within a fixed container width */
+    margin: 0 auto;
+  }
+  
+  .like-button,
+  .dislike-button {
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    color: #e0e0e0;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  .like-button:hover,
+  .dislike-button:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  }

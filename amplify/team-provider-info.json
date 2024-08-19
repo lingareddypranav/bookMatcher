@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bookmatchapp-dev-f6a3a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::418272770978:role/amplify-bookmatchapp-dev-f6a3a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::418272770978:role/amplify-bookmatchapp-dev-f6a3a-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bookmatchapp-dev-f6a3a-deployment",
+      "UnauthRoleName": "amplify-bookmatchapp-dev-f6a3a-unauthRole",
+      "StackName": "amplify-bookmatchapp-dev-f6a3a",
+      "StackId": "arn:aws:cloudformation:us-east-1:418272770978:stack/amplify-bookmatchapp-dev-f6a3a/d551fc40-5df7-11ef-b639-0e74d718cccb",
+      "AmplifyAppId": "d4rwvbvykr2uc",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-bookmatchapp-dev-f6a3a-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "bookmatchappbe6be411": {}
+      },
+      "function": {
+        "bookmatchapp04353709": {
+          "deploymentBucketName": "amplify-bookmatchapp-dev-f6a3a-deployment",
+          "s3Key": "amplify-builds/bookmatchapp04353709-4c6169746a6948613170-build.zip"
+        }
+      },
+      "storage": {
+        "dynamo4bb262dc": {}
+      },
+      "api": {
+        "api39362885": {}
+      }
+    }
+  }
+}
